@@ -19,7 +19,7 @@
   /* Color for headings, subheadings and title throughout the website */
   --accent-color: #FEEE91;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #C4E1F6;
+  --surface-color: #B0DEFF;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #FFBD73;
   /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -43,15 +43,15 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 .light-background {
-  --background-color: #C4E1F6;
+  --background-color: #8ECDDD;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #C4E1F6;
+  --background-color: #22668D;
   --default-color: #FF9D3D;
   --heading-color: #ffffff;
-  --surface-color: #C4E1F6;
+  --surface-color: #86A7FC;
   --contrast-color: #FEEE91;
 }
 
@@ -145,7 +145,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #C4E1F6;
+  --background-color: #22668D;
   --default-color: #FEEE91;
   --heading-color: #FF9D3D;
   color: var(--default-color);
